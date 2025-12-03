@@ -1,8 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Search, X, ChevronDown, AlertCircle } from 'lucide-react';
 
-// Sample food database (in a real app, this would be loaded from a JSON file)
-// This data structure is optimized for fast searching
+// Temporary food database (in a real app, this would be loaded from the JSON file that Im parsing from the XML files)
 const FOOD_DATABASE = [
   { id: 1, name: "Apple, raw", portion: "1 medium (3\" dia)", calories: 95 },
   { id: 2, name: "Banana, raw", portion: "1 medium (7-8\" long)", calories: 105 },
